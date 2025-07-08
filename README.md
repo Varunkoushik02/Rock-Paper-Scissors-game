@@ -18,15 +18,9 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS, and J
 
 ## 🖼️ Preview
 
+![image](https://github.com/user-attachments/assets/001dc0be-18b9-42ca-b42a-7a424b284e05)
+![image](https://github.com/user-attachments/assets/15a6951b-6866-470d-a6d7-4d5db18820ea)
 
-
-## 🚀 Live Demo (Optional)
-
-If deployed (e.g., on GitHub Pages or Vercel), you can add a link here:
-
-👉 [Live Game Demo](https://your-username.github.io/rock-paper-scissors/)
-
----
 
 ## 🛠️ Technologies Used
 
@@ -57,7 +51,6 @@ If deployed (e.g., on GitHub Pages or Vercel), you can add a link here:
  📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
 
 
 🤝 Contributing
