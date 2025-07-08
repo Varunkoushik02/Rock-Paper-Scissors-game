@@ -1,60 +1,68 @@
-# Rock-Paper-Scissors-game
+# 🪨📄✂️ Rock Paper Scissors Game
 
-A simple and interactive Rock Paper Scissors game built using **HTML, CSS, and JavaScript**. Instead of using alerts, the result is displayed directly on the web page in a clean and user-friendly way.
+A simple and interactive Rock Paper Scissors game built using **HTML, CSS, and JavaScript**. Instead of using alerts, the result is displayed directly on the web page in a clean and user-friendly way. This version also includes **score tracking** for both the player and the computer!
 
 
 
-🎮 How to Play
+## 🎮 How to Play
 
-1. Open the game in your browser (`Rock paper Scissors.html`)
+1. Open the game in your browser (`Rock Paper Scissors.html`)
 2. Click on one of the emoji buttons:
    - 🪨 = Rock
    - 📄 = Paper
    - ✂️ = Scissors
-3. The computer randomly chooses one.
-4. See the result printed below the buttons!
+3. The computer randomly selects a move.
+4. The result and updated scores will appear below the buttons.
 
-
+---
 
 ## 🖼️ Preview
 
-![image](https://github.com/user-attachments/assets/001dc0be-18b9-42ca-b42a-7a424b284e05)
-![image](https://github.com/user-attachments/assets/15a6951b-6866-470d-a6d7-4d5db18820ea)
+![Preview Screenshot](https://github.com/user-attachments/assets/fae6f760-7de9-4cbc-bdb0-c82b3a637bb8)
 
+
+---
 
 ## 🛠️ Technologies Used
 
-- HTML – for structure
-- CSS – for styling and layout
-- JavaScript – for game logic
+- **HTML** – Structure
+- **CSS** – Styling and layout (Flexbox used for centering)
+- **JavaScript** – Game logic and interactivity
 
+---
 
-
- ✨ Features
+## ✨ Features
 
 - Emoji buttons for Rock, Paper, and Scissors
-- Direct result output 
-- Responsive and centered layout using Flexbox
-- Smooth hover effects
-- Beginner-friendly and clean code
+- Result printed on the web page (no alerts)
+- Live score tracking for Player 👤 and Computer 💻
+- Responsive and centered layout
+- Smooth hover animations
+- Beginner-friendly and cleanly structured code
 
+---
 
+## 📌 Future Enhancements
 
- 📌 Future Enhancements
-
-- 🎯 Add player and computer score tracking
+- 🔄 Reset button to restart scores
 - 🔊 Add sound effects
-- 📱 Make fully mobile responsive
-- 🎨 Add animations for result transitions
+- 📱 Mobile responsiveness
+- 🎨 Animations for win/loss/tie
+- 💾 Save high scores with localStorage
 
+---
 
- 📄 License
+## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
+---
 
-🤝 Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork this project and submit a pull request.
+Contributions are welcome!  
+Feel free to fork this repository, improve the game, and submit a pull request.
+
+---
 
 Made with ❤️ using HTML, CSS & JS
