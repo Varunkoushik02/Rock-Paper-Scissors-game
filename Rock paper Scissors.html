@@ -51,12 +51,14 @@
             margin-top: 30px;
         }
 
-        .result {
+        .result, .scoreboard {
             font-size: 24px;
-            margin-top: 30px;
-            padding: 10px;
-            color: darkgreen;
+            margin-top: 20px;
             font-weight: bold;
+        }
+
+        .scoreboard span {
+            margin: 0 20px;
         }
     </style>
 </head>
@@ -75,7 +77,15 @@
 
     <div id="result" class="result"></div>
 
+    <div class="scoreboard">
+        <span>👤 Player Score: <span id="playerScore">0</span></span>
+        <span>💻 Computer Score: <span id="computerScore">0</span></span>
+    </div>
+
     <script>
+        let playerScore = 0;
+        let computerScore = 0;
+
         function play(playerChoice) {
             const choices = ['rock', 'paper', 'scissors'];
             const emojis = {
@@ -95,14 +105,21 @@
                 (playerChoice === 'scissors' && computerChoice === 'paper')
             ) {
                 resultText = "You win!";
+                playerScore++;
             } else {
                 resultText = "Computer wins!";
+                computerScore++;
             }
 
-            document.getElementById("result").innerText = 
+            // Update the result display
+            document.getElementById("result").innerText =
                 `Computer: ${computerChoice} ${emojis[computerChoice]}\n` +
                 `Player: ${playerChoice} ${emojis[playerChoice]}\n` +
                 `${resultText}`;
+
+            // Update the scores
+            document.getElementById("playerScore").innerText = playerScore;
+            document.getElementById("computerScore").innerText = computerScore;
         }
     </script>
 
