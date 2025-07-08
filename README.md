@@ -33,7 +33,7 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS, and J
  ✨ Features
 
 - Emoji buttons for Rock, Paper, and Scissors
-- Direct result output (no alerts)
+- Direct result output 
 - Responsive and centered layout using Flexbox
 - Smooth hover effects
 - Beginner-friendly and clean code
