@@ -24,9 +24,9 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS, and J
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – for structure
-- **CSS3** – for styling and layout
-- **JavaScript (Vanilla)** – for game logic
+- HTML – for structure
+- CSS – for styling and layout
+- JavaScript – for game logic
 
 
 
