@@ -50,6 +50,14 @@
             font-weight: 100;
             margin-top: 30px;
         }
+
+        .result {
+            font-size: 24px;
+            margin-top: 30px;
+            padding: 10px;
+            color: darkgreen;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -65,6 +73,8 @@
 
     <p class="instructions">Choose your move!</p>
 
+    <div id="result" class="result"></div>
+
     <script>
         function play(playerChoice) {
             const choices = ['rock', 'paper', 'scissors'];
@@ -75,21 +85,24 @@
             };
 
             const computerChoice = choices[Math.floor(Math.random() * 3)];
-            let result = '';
+            let resultText = '';
 
             if (playerChoice === computerChoice) {
-                result = "It's a tie!";
+                resultText = "It's a tie!";
             } else if (
                 (playerChoice === 'rock' && computerChoice === 'scissors') ||
                 (playerChoice === 'paper' && computerChoice === 'rock') ||
                 (playerChoice === 'scissors' && computerChoice === 'paper')
             ) {
-                result = "You win!";
+                resultText = "You win!";
             } else {
-                result = "Computer wins!";
+                resultText = "Computer wins!";
             }
 
-            alert(`Computer: ${computerChoice} ${emojis[computerChoice]}\nPlayer: ${playerChoice} ${emojis[playerChoice]}\n${result}`);
+            document.getElementById("result").innerText = 
+                `Computer: ${computerChoice} ${emojis[computerChoice]}\n` +
+                `Player: ${playerChoice} ${emojis[playerChoice]}\n` +
+                `${resultText}`;
         }
     </script>
 
